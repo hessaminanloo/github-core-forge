@@ -1,0 +1,14 @@
+{
+  "name": "github-core-forge",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Anvil: a single-process GitHub-compatible git forge (git smart HTTP v2/v0, REST v3, GraphQL v4, MCP) in pure Node.js standard library",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22.18"
+  },
+  "scripts": {
+    "start": "node --experimental-strip-types main.ts"
+  }
+}
